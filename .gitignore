@@ -1,0 +1,63 @@
+# Unity Generated Folders
+Library/
+Temp/
+Logs/
+Obj/
+MemoryCaptures/
+
+# Build folders
+Builds/
+Build/
+ExportedObj/
+
+# Unity crash reports
+CrashReports/
+
+# User-specific settings
+UserSettings/
+
+# Ignore Unity Cache and Temp files
+Cache/
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.unityproj
+*.swp
+*.lock
+*.tmp
+*.bak
+*.ncb
+*.svd
+
+# Ignore IDE-specific files (Visual Studio, Rider, etc.)
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.unitypackage
+.DS_Store
+Thumbs.db
+
+# Ignore Git LFS files (only if used)
+# Uncomment if you are using Git LFS
+# *.psd
+# *.png
+# *.jpg
+# *.wav
+# *.mp4
+# *.fbx
+# *.zip
+
+# Ignore Play Mode & Editor Logs
+Logs/
+Player.log
+Editor.log
+
+# Ignore JetBrains Rider files
+/.idea/
+/*.iml
+
+# Ignore system-specific files
+*.DS_Store
+*.desktop
