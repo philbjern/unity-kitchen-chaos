@@ -9,8 +9,7 @@ public class Player : MonoBehaviour
 
     private bool isWalking;
 
-    private void Update()
-    {
+    private void Update() {
         Vector2 inputVector = gameInput.GetMovementVectorNormalized();
         Vector3 moveDir = new Vector3(inputVector.x, 0f, inputVector.y);
         transform.position += moveDir * moveSpeed * Time.deltaTime;
