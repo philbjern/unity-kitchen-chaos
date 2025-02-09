@@ -123,6 +123,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &44773176 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2944244000437392426, guid: 2a76e3b4906d7ac42a51cbe0b6f472f7,
+    type: 3}
+  m_PrefabInstance: {fileID: 2120598290}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &258144598
 GameObject:
   m_ObjectHideFlags: 0
@@ -452,6 +458,12 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!4 &358856560 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2944244000437392426, guid: 2a76e3b4906d7ac42a51cbe0b6f472f7,
+    type: 3}
+  m_PrefabInstance: {fileID: 8474701700381846659}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1173,6 +1185,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearCounter (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3575839400132202829, guid: 2a76e3b4906d7ac42a51cbe0b6f472f7,
+        type: 3}
+      propertyPath: tomatoPrefab
+      value: 
+      objectReference: {fileID: 589200805122944758, guid: b67f9370a92ff2841bcc842e7f8bf79f,
+        type: 3}
+    - target: {fileID: 3575839400132202829, guid: 2a76e3b4906d7ac42a51cbe0b6f472f7,
+        type: 3}
+      propertyPath: counterTopPoint
+      value: 
+      objectReference: {fileID: 44773176}
+    - target: {fileID: 3575839400132202829, guid: 2a76e3b4906d7ac42a51cbe0b6f472f7,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: e310bbffd3d0d9a48a2b6102cf6f9545,
+        type: 2}
     - target: {fileID: 6144900154821603517, guid: 2a76e3b4906d7ac42a51cbe0b6f472f7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1241,6 +1270,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearCounter
       objectReference: {fileID: 0}
+    - target: {fileID: 3575839400132202829, guid: 2a76e3b4906d7ac42a51cbe0b6f472f7,
+        type: 3}
+      propertyPath: tomatoPrefab
+      value: 
+      objectReference: {fileID: 589200805122944758, guid: 216ae203e5beec04c84cd337e7cbe793,
+        type: 3}
+    - target: {fileID: 3575839400132202829, guid: 2a76e3b4906d7ac42a51cbe0b6f472f7,
+        type: 3}
+      propertyPath: counterTopPoint
+      value: 
+      objectReference: {fileID: 358856560}
+    - target: {fileID: 3575839400132202829, guid: 2a76e3b4906d7ac42a51cbe0b6f472f7,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 62ebe5bd0eae0c34b9617d87edca5fc1,
+        type: 2}
     - target: {fileID: 6144900154821603517, guid: 2a76e3b4906d7ac42a51cbe0b6f472f7,
         type: 3}
       propertyPath: m_LocalPosition.x
